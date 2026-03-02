@@ -1,4 +1,3 @@
-import 'package:bloc_test/bloc_test.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:ecommercestore/src/presentation/bloc/cart_cubit.dart';
@@ -49,4 +48,3 @@ void main() {
     expect(cubit.state, anyOf(isA<CartEmpty>(), isA<CartLoaded>()));
   });
 }
-

@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'متجر صغير',
+        title: 'المتجر ',
         theme: AppTheme.light(),
         localizationsDelegates: const [
           GlobalMaterialLocalizations.delegate,

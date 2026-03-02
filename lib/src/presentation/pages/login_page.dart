@@ -101,12 +101,6 @@ class _LoginPageState extends State<LoginPage> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               // app icon from assets
-                                              Container(
-                                                width: 28,
-                                                height: 28,
-                                                margin: const EdgeInsetsDirectional.only(end: 10),
-                                                child: Image.asset('assets/images/logo.png', fit: BoxFit.contain, errorBuilder: (c, e, s) => const Icon(Icons.storefront_rounded, color: Colors.white)),
-                                              ),
                                               Flexible(
                                                 child: Text('تسجيل الدخول', textAlign: TextAlign.center, style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w600)),
                                               ),
